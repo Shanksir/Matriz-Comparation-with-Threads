@@ -1,0 +1,14 @@
+Cada teste foi realizado 10 vezes e foi tirado a moda dos valores.
+
+Execution Time (Without Thread):
+
+12x12   -> 0.006 seconds
+20x20   -> 0.007 seconds
+40x40   -> 0.012 seconds
+80x80   -> 0.028 seconds
+100x100 -> 0.045 seconds
+120x120 -> 0.048 seconds
+160x160 -> 0.068 seconds
+200x200 -> 0.099 seconds
+
+Execution Time (With Thread):
