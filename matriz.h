@@ -15,8 +15,8 @@ class Matriz{
 	public:
 	
 		Matriz ();
-		void fill(Matriz &a);	
-		void ImprimeMatriz ();
+		void Fill(Matriz &a);	
+		void PrintMatriz ();
 		void MultiplicaMatriz(const Matriz &a, const Matriz &b);
 		
 };

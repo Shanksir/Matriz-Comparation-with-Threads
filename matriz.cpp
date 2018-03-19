@@ -5,14 +5,14 @@ Matriz::Matriz(){
 	srand(time(NULL));
 }
 
-void Matriz::fill (Matriz &a){
+void Matriz::Fill (Matriz &a){
 	int i = 0, j = 0;
 	for(i = 0; i <= SIZE - 1; i++)
 		for(j = 0; j <= SIZE -1; j++)
 			a.matriz[i][j] = (rand() % 10) + 1;			
 }
 
-void Matriz::ImprimeMatriz(){
+void Matriz::PrintMatriz(){
 
 	int i, j;
 	for(i = 0; i <= SIZE - 1; i++){
